@@ -1,24 +1,25 @@
 					=================================================
-					=      NAS Parallel Benchmarks C++ Versions     =
-					=                   							=
+					=      NAS Parallel Benchmarks C++ Versions		=
+					= 												=
 					=      Developed by: Dalvan Griebler    		=
-					=                    Júnior Löff        		=
-					=                                       		=
-					=      Warning: in case of problems     		=
-					=      send an email to us:             		=
-					=      dalvan.griebler@acad.pucrs.br    		=
-					=      junior.loff@acad.pucrs.br        		=
+					=                    Júnior Löff				=
+					=												=
+					=      Warning: in case of problems				=
+					=      send an email to us:						=
+					=      dalvan.griebler@acad.pucrs.br			=
+					=      junior.loff@acad.pucrs.br				=
 					=================================================
 
 
 
-=> This folder contains:
+	This folder contains:
+
 		- NPB-FF - Directory with the parallel version implemented in FastFlow
 		- NPB-OMP - Directory with the parallel version translated from the original NPB version
 		- NPB-SER - Directory with the serial version of the NPB ported to C++
 		- NPB-TBB - Directory with the parallel version implemented in Thread Building Blocks
 
-=> Each directory is independent and contains its own implemented version of the kernels:
+	Each directory is independent and contains its own implemented version of the kernels:
 
 		IS - Integer Sort, random memory access
 		EP - Embarrassingly Parallel
@@ -27,12 +28,10 @@
 		FT - discrete 3D fast Fourier Transform, all-to-all communication
 
 
-########################################################################################################
 
+# TO COMPILE 
 
-=> TO COMPILE 
-
-Enter the dir from the version desired and execute:
+	Enter the dir from the version desired and execute:
 
 	make _BENCHMARK CLASS=_VERSION
 
