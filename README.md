@@ -4,18 +4,19 @@ D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient
 
 # The NPB-CPP Benchmark
 
-	===========================================================
-		NAS Parallel Benchmarks in C++
+These codes were converted to **C++** from the original [NPB3.3.1](https://www.nas.nasa.gov/publications/npb.html)
+
+	==================================================================
+		NAS Parallel Benchmarks in C++, OpenMP, FastFlow, and TBB
 	 												
-			Developed by: 
+			Code contributors: 
 					Dalvan Griebler    		
-					Júnior Löff				
+					Júnior Löff
 													
 		Warning: in case of problems send an email to us:					
 			dalvan.griebler@acad.pucrs.br			
 			junior.loff@acad.pucrs.br				
-	===========================================================
-
+	==================================================================
 
 
 This folder contains:
