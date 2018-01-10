@@ -1,14 +1,16 @@
-					=================================================
-					=	NAS Parallel Benchmarks C++ Versions		=
-					= 												=
-					=		Developed by: Dalvan Griebler    		=
-					=						Júnior Löff				=
-					=												=
-					=		Warning: in case of problems			=
-					=		send an email to us:					=
-					=		dalvan.griebler@acad.pucrs.br			=
-					=		junior.loff@acad.pucrs.br				=
-					=================================================
+# NPB-CPP
+
+		=================================================
+			NAS Parallel Benchmarks C++ Versions		
+		 												
+				Developed by: Dalvan Griebler    		
+							Júnior Löff				
+														
+				Warning: in case of problems			
+				send an email to us:					
+				dalvan.griebler@acad.pucrs.br			
+				junior.loff@acad.pucrs.br				
+		=================================================
 
 
 
