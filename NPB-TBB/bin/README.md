@@ -4,7 +4,7 @@ D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient
 
 # The NPB-CPP Benchmark
 
-These codes were converted to **C++** from the original [NPB3.3.1](https://www.nas.nasa.gov/publications/npb.html).
+These codes were converted to **C++** from the original [NPB3.3.1](https://www.nas.nasa.gov/publications/npb.html)
 
 	==================================================================
 		NAS Parallel Benchmarks in C++, OpenMP, FastFlow, and TBB
@@ -34,11 +34,28 @@ Each directory is independent and contains its own implemented version of the ke
 	MG - Multi-Grid on a sequence of meshes, long- and short-distance communication, memory intensive
 	FT - discrete 3D fast Fourier Transform, all-to-all communication
 
+# Software Requiriments
+
+*Warning: our tests were made with GCC-5*
+
+**TBB**
+
+*Installation*
+
+	apt-get install libtbb-dev
+
+**FastFlow** 
+
+*Installation*
+
+	svn co https://svn.code.sf.net/p/mc-fastflow/code/ $HOME/fastflow
+
+
 # How to Compile 
 
 Enter the directory from the version desired and execute:
 
-	$ make _BENCHMARK CLASS=_VERSION
+	make _BENCHMARK CLASS=_VERSION
 
 
 _BENCHMARKs are: 
@@ -55,5 +72,4 @@ _VERSIONs are:
 
 Command:
 
-	$ make ep CLASS=B
-	$ make ft CLASS=E
+	make ep CLASS=B
