@@ -40,22 +40,22 @@ Each directory is independent and contains its own implemented version of the ke
 
 **TBB**
 
-*Instalation*
+*Installation*
 
 	apt-get install libtbb-dev
 
 **FastFlow** 
 
-*Instalation*
+*Installation*
 
-	svn co https://svn.code.sf.net/p/mc-fastflow/code/ fastflow
+	svn co https://svn.code.sf.net/p/mc-fastflow/code/ $HOME/fastflow
 
 
 # How to Compile 
 
 Enter the directory from the version desired and execute:
 
-	$ make _BENCHMARK CLASS=_VERSION
+	make _BENCHMARK CLASS=_VERSION
 
 
 _BENCHMARKs are: 
@@ -72,5 +72,4 @@ _VERSIONs are:
 
 Command:
 
-	$ make ep CLASS=B
-	$ make ft CLASS=E
+	make ep CLASS=B
