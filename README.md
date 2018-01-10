@@ -41,13 +41,15 @@ Enter the directory from the version desired and execute:
 
 
 _BENCHMARKs are: 																				
-		EP, CG, MG, IS and FT 																		
+		
+	EP, CG, MG, IS and FT 																		
 																										
 _VERSIONs are: 																						
-		Class S: small for quick test purposes														
-		Class W: workstation size (a 90's workstation; now likely too small)						
-		Classes A, B, C: standard test problems; ~4X size increase going from one class to the next	
-		Classes D, E, F: large test problems; ~16X size increase from each of the previous Classes  
+	
+	Class S: small for quick test purposes														
+	Class W: workstation size (a 90's workstation; now likely too small)						
+	Classes A, B, C: standard test problems; ~4X size increase going from one class to the next	
+	Classes D, E, F: large test problems; ~16X size increase from each of the previous Classes  
 
 
 e.g.
