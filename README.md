@@ -34,6 +34,23 @@ Each directory is independent and contains its own implemented version of the ke
 	MG - Multi-Grid on a sequence of meshes, long- and short-distance communication, memory intensive
 	FT - discrete 3D fast Fourier Transform, all-to-all communication
 
+# Software Requiriments
+
+*Warning: our tests were made with GCC-5*
+
+**TBB**
+
+*Instalation*
+
+	apt-get install libtbb-dev
+
+**FastFlow** 
+
+*Instalation*
+
+	svn co https://svn.code.sf.net/p/mc-fastflow/code/ fastflow
+
+
 # How to Compile 
 
 Enter the directory from the version desired and execute:
