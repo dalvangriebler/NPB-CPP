@@ -18,40 +18,39 @@ D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient
 
 
 
-	This folder contains:
+This folder contains:
 
-		- NPB-FF - Directory with the parallel version implemented in FastFlow
-		- NPB-OMP - Directory with the parallel version translated from the original NPB version
-		- NPB-SER - Directory with the serial version of the NPB ported to C++
-		- NPB-TBB - Directory with the parallel version implemented in Thread Building Blocks
+	- NPB-FF - Directory with the parallel version implemented in FastFlow
+	- NPB-OMP - Directory with the parallel version translated from the original NPB version
+	- NPB-SER - Directory with the serial version of the NPB ported to C++
+	- NPB-TBB - Directory with the parallel version implemented in Thread Building Blocks
 
-	Each directory is independent and contains its own implemented version of the kernels:
+Each directory is independent and contains its own implemented version of the kernels:
 
-		IS - Integer Sort, random memory access
-		EP - Embarrassingly Parallel
-		CG - Conjugate Gradient, irregular memory access and communication
-		MG - Multi-Grid on a sequence of meshes, long- and short-distance communication, memory intensive
-		FT - discrete 3D fast Fourier Transform, all-to-all communication
-
-
+	IS - Integer Sort, random memory access
+	EP - Embarrassingly Parallel
+	CG - Conjugate Gradient, irregular memory access and communication
+	MG - Multi-Grid on a sequence of meshes, long- and short-distance communication, memory intensive
+	FT - discrete 3D fast Fourier Transform, all-to-all communication
 
 # How to Compile 
 
-	Enter the dir from the version desired and execute:
+Enter the directory from the version desired and execute:
 
-	make _BENCHMARK CLASS=_VERSION
+	$ make _BENCHMARK CLASS=_VERSION
 
-	*****************************************************************************************************
-	=	_BENCHMARKs are: 																				=
-	=		EP, CG, MG, IS and FT 																		=
-	=																									=	
-	=	_VERSIONs are: 																					=	
-	=		Class S: small for quick test purposes														=
-	=		Class W: workstation size (a 90's workstation; now likely too small)						=
-	=		Classes A, B, C: standard test problems; ~4X size increase going from one class to the next	=
-	=		Classes D, E, F: large test problems; ~16X size increase from each of the previous Classes  =
-	****************************************************************************************************=
 
-	e.g.
-		make ep CLASS=B
-		make ft CLASS=E
+_BENCHMARKs are: 																				
+		EP, CG, MG, IS and FT 																		
+																										
+_VERSIONs are: 																						
+		Class S: small for quick test purposes														
+		Class W: workstation size (a 90's workstation; now likely too small)						
+		Classes A, B, C: standard test problems; ~4X size increase going from one class to the next	
+		Classes D, E, F: large test problems; ~16X size increase from each of the previous Classes  
+
+
+e.g.
+
+	$ make ep CLASS=B
+	$ make ft CLASS=E
