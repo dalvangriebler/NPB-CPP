@@ -4,17 +4,17 @@ D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient
 
 # The NPB-CPP Benchmark
 
-		===========================================================
-			NAS Parallel Benchmarks C++ Versions		
-		 												
-				Developed by: Dalvan Griebler    		
-						Júnior Löff				
-														
-				Warning: in case of problems			
-				send an email to us:					
-				dalvan.griebler@acad.pucrs.br			
-				junior.loff@acad.pucrs.br				
-		===========================================================
+	===========================================================
+		NAS Parallel Benchmarks in C++
+	 												
+			Developed by: 
+					Dalvan Griebler    		
+					Júnior Löff				
+													
+		Warning: in case of problems send an email to us:					
+			dalvan.griebler@acad.pucrs.br			
+			junior.loff@acad.pucrs.br				
+	===========================================================
 
 
 
@@ -40,19 +40,19 @@ Enter the directory from the version desired and execute:
 	$ make _BENCHMARK CLASS=_VERSION
 
 
-_BENCHMARKs are: 																				
+_BENCHMARKs are: 
 		
-	EP, CG, MG, IS and FT 																		
+	EP, CG, MG, IS and FT 
 																										
-_VERSIONs are: 																						
+_VERSIONs are: 
 	
-	Class S: small for quick test purposes														
-	Class W: workstation size (a 90's workstation; now likely too small)						
+	Class S: small for quick test purposes
+	Class W: workstation size (a 90's workstation; now likely too small)	
 	Classes A, B, C: standard test problems; ~4X size increase going from one class to the next	
 	Classes D, E, F: large test problems; ~16X size increase from each of the previous Classes  
 
 
-e.g.
+Command:
 
 	$ make ep CLASS=B
 	$ make ft CLASS=E
