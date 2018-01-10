@@ -1,16 +1,20 @@
+# How to Cite our Work
+	
+D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. *Efficient NAS Benchmark Kernels with C++ Parallel Programming*. In proceedings of the 26th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP), Cambridge, United Kingdom, 2018.
+
 # NPB-CPP
 
-		=================================================
+		===========================================================
 			NAS Parallel Benchmarks C++ Versions		
 		 												
 				Developed by: Dalvan Griebler    		
-							Júnior Löff				
+						Júnior Löff				
 														
 				Warning: in case of problems			
 				send an email to us:					
 				dalvan.griebler@acad.pucrs.br			
 				junior.loff@acad.pucrs.br				
-		=================================================
+		===========================================================
 
 
 
