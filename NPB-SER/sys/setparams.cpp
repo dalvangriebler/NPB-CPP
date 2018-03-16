@@ -657,6 +657,7 @@ setparams: File %s doesn't exist. To build the NAS benchmarks\n\
       case FT:
       case MG:
       case EP:
+      case IS:
       case CG:
           put_def_string(fp, (char*)"COMPILETIME", compiletime);
           put_def_string(fp, (char*)"NPBVERSION", (char*)VERSION);
@@ -668,7 +669,6 @@ setparams: File %s doesn't exist. To build the NAS benchmarks\n\
           put_def_string(fp, (char*)"CS6", clinkflags);
 	  put_def_string(fp, (char*)"CS7", randfile);
           break;
-      case IS:
       default:
           printf("setparams: (Internal error): Unknown benchmark type %d\n", 
                                                                          type);
