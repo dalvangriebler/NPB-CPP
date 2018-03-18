@@ -4,7 +4,7 @@ D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient
 
 # The NPB-CPP Benchmark
 
-These codes were converted to **C++** from the original [NPB3.3.1](https://www.nas.nasa.gov/publications/npb.html)
+These codes were converted to **C++** from the original [NPB3.3.1](https://www.nas.nasa.gov/publications/npb.html). We achieved similar performance in **C++** compared to the **Fortran** version.
 
 	==================================================================
 		NAS Parallel Benchmarks in C++, OpenMP, FastFlow, and TBB
