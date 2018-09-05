@@ -1,10 +1,10 @@
 # How to Cite our Work
 	
-D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient NAS Benchmark Kernels with C++ Parallel Programming**. *In proceedings of the 26th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)*. Cambridge, United Kingdom, 2018.
+[DOI](https://www.nas.nasa.gov/publications/npb.html) D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient NAS Benchmark Kernels with C++ Parallel Programming**. *In proceedings of the 26th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)*. Cambridge, United Kingdom, 2018.
 
 # The NPB-CPP Benchmark
 
-These codes were converted to **C++** from the original [NPB3.3.1](https://www.nas.nasa.gov/publications/npb.html). We achieved similar performance in **C++** compared to the **Fortran** version.
+These codes were converted to **C++** from the original [NPB3.3.1](https://doi.org/10.1109/PDP2018.2018.00120). We achieved similar performance in **C++** compared to the **Fortran** version.
 
 	==================================================================
 		NAS Parallel Benchmarks in C++, OpenMP, FastFlow, and TBB
