@@ -154,7 +154,7 @@ int main(int argc, char **argv) {
         double t2 = an;
         double t3, t4, x1, x2;
         int i, ik, l;
-        double x[2*NK];
+        double x[(2*NK)+1];
         /*  Find starting seed t1 for this kk. */
 
         for (i = 1; i <= 100; i++) {
@@ -178,7 +178,7 @@ int main(int argc, char **argv) {
         */
         if (TIMERS_ENABLED == TRUE) timer_start(2);
 
-        for (i = 0; i <= NK; i++) {
+        for (i = 1; i <= NK; i++) {
             x1 = 2.0 * x[2*i-1] - 1.0;
             x2 = 2.0 * x[2*i] - 1.0;
             t1 = pow2(x1) + pow2(x2);

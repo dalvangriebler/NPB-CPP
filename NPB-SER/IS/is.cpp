@@ -499,8 +499,8 @@ void full_verify( void )
         key_buff2[i] = key_array[i];
 
     /* This is actual sorting. Each thread is responsible for a subset of key values */
-    j = (MAX_KEY + j - 1) / j;
-    k1 = j;
+    j = MAX_KEY;
+    k1 = 0;
     INT_TYPE k2 = k1 + j;
 
     if (k2 > MAX_KEY) k2 = MAX_KEY;

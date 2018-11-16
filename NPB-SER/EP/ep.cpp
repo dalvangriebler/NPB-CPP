@@ -31,7 +31,7 @@
 
 /* global variables */
 /* common /storage/ */
-static double x[2*NK];
+static double x[(2*NK)+1];
 static double q[NQ];
 
 /*--------------------------------------------------------------------
@@ -156,7 +156,7 @@ int main(int argc, char **argv) {
         */
         if (TIMERS_ENABLED == TRUE) timer_start(2);
 
-        for ( i = 0; i <= NK; i++) {
+        for ( i = 1; i <= NK; i++) {
             x1 = 2.0 * x[2*i-1] - 1.0;
             x2 = 2.0 * x[2*i] - 1.0;
             t1 = pow2(x1) + pow2(x2);

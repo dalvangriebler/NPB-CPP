@@ -143,7 +143,7 @@ int main(int argc, char **argv) {
         int kk, ik, l;
         double qq[NQ];		/* private copy of q[0:NQ-1] */
         double sx_tbb, sy_tbb;
-        double x[2*NK];
+        double x[(2*NK)+1];
 
         for (int i = 0; i < NQ; i++)
             qq[i] = 0.0;
@@ -179,7 +179,7 @@ int main(int argc, char **argv) {
             */
             if (TIMERS_ENABLED == TRUE) timer_start(2);
 
-            for (int i = 0; i <= NK; i++) {
+            for (int i = 1; i <= NK; i++) {
                 x1 = 2.0 * x[2*i-1] - 1.0;
                 x2 = 2.0 * x[2*i] - 1.0;
                 t1 = pow2(x1) + pow2(x2);
