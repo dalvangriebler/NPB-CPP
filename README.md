@@ -1,8 +1,17 @@
-# How to Cite our Work
+# Warning: this project was migrated to [NPB-CPP](https://github.com/GMAP/NPB-CPP)
+
+We are happy to announce that both NPB Kernels and pseudo-application are available at our new repository [NPB-CPP](https://github.com/GMAP/NPB-CPP).
+
+This was our first work on NAS Parallel Benchmark (NPB) suite and many other works are now continuing this project in many different ways.
+
+*Note: this repository will no longer be updated, therefore, follow us at [NPB-CPP](https://github.com/GMAP/NPB-CPP)*
+
+
+## How to cite this work
 	
 [[DOI]](https://doi.org/10.1109/PDP2018.2018.00120) D. Griebler, J. Loff, G. Mencagli, M. Danelutto and L. G. Fernandes. **Efficient NAS Benchmark Kernels with C++ Parallel Programming**. *In proceedings of the 26th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP)*. Cambridge, United Kingdom, 2018.
 
-# The NPB-CPP Benchmark
+## The NPB-CPP Benchmark
 
 These codes were converted to **C++** from the original [NPB3.3.1](https://doi.org/10.1109/PDP2018.2018.00120). We achieved similar performance in **C++** compared to the **Fortran** version.
 
@@ -34,7 +43,7 @@ Each directory is independent and contains its own implemented version of the ke
 	MG - Multi-Grid on a sequence of meshes, long- and short-distance communication, memory intensive
 	FT - discrete 3D fast Fourier Transform, all-to-all communication
 
-# Software Requirements
+## Software Requirements
 
 *Warning: our tests were made with GCC-5*
 
@@ -51,7 +60,7 @@ Each directory is independent and contains its own implemented version of the ke
 	svn co https://svn.code.sf.net/p/mc-fastflow/code/ $HOME/fastflow
 
 
-# How to Compile 
+## How to Compile 
 
 Enter the directory from the version desired and execute:
 
