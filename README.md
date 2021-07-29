@@ -1,10 +1,10 @@
 # Warning: this project is continued at [NPB-CPP](https://github.com/GMAP/NPB-CPP)
 
-## We are happy to announce that both NPB Kernels and pseudo-application are available at our new repository [NPB-CPP](https://github.com/GMAP/NPB-CPP).
+## :sound: We are happy to announce that both NPB Kernels and pseudo-application are available at our new repository [NPB-CPP](https://github.com/GMAP/NPB-CPP). :smile:
 
 This was our first work on NAS Parallel Benchmark (NPB) suite and many other works are now continuing this project in many different ways.
 
-*Note: this repository will no longer be updated, therefore, follow us at [NPB-CPP](https://github.com/GMAP/NPB-CPP)*
+:sound:*Note: this repository will no longer be updated, therefore, follow us at [NPB-CPP](https://github.com/GMAP/NPB-CPP)*
 
 
 ## How to cite this work
